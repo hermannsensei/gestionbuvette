@@ -1,0 +1,46 @@
+/* @charset "ISO-8859-1";
+table
+{
+    border-collapse: collapse;
+}
+td, th Mettre une bordure sur les td ET les th
+{
+    border: 1px solid black;
+}
+body{
+	font-family: 'Source code pro' , Calibri , serif ;
+	margin: 0px;
+	padding : 0px;
+}
+nav {
+	width : 100%;
+	backgroundcolor :#0425586 ;
+}
+nav > ul {
+	margin: 0px;
+	padding : 0px;
+}
+nav > ul :: after{
+	content:"";
+	display:block ;
+}
+nav > ul > li {
+	float : left ;
+	position :relative;
+}
+nav li {
+	list-style-type : none ;
+}
+.submenu {
+	display : none ;
+}
+nav a {
+	display : inline-block ;
+	text-decoration : none ;
+} */
+
+
+select {
+	text-align : center ;
+	display : inline-block ;
+}

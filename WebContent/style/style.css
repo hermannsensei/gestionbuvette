@@ -1,0 +1,76 @@
+/* @charset "ISO-8859-1";
+Général -------------------------------------------------------------------------------------
+
+body, p, legend, label, input  {
+    font: normal 8pt verdana, helvetica, sans-serif;
+    width:70%;
+    text-align: center ;
+}
+h2 {
+	font : normal 17pt comic sans ms, sans-serif;
+	text-align: center;
+}
+
+Forms ---------------------------------------------------------------------------------------
+fieldset {
+    padding: 15px;
+    border: 1px #0568CD solid;
+    margin: 15px;
+    text-align: center;
+}
+
+legend {
+    font-weight: bold;
+    color: #0568CD;
+}
+
+form label {
+    float: left;
+    width: 200px;
+    margin: 3px 2px 1px 0px;
+}
+
+form input {
+    margin: 3px 3px 0px 0px;
+    border: 1px #999 solid;
+}
+
+form input.sansLabel {
+    margin-left: 200px;
+}
+table
+{
+    border-collapse: collapse;
+}
+td, th Mettre une bordure sur les td ET les th
+{
+    border: 1px solid black;
+}
+
+Styles et couleurs --------------------------------------------------------------------------
+.requis {
+    color: #c00;
+}
+
+.erreur {
+    color: #900;
+}
+
+.succes {
+    color: #090;
+}
+
+.info {
+    font-style: italic;
+    color: #E8A22B;
+} */
+body{
+	 background: -webkit-linear-gradient(90deg, #FF512F 10%, #DD2476 90%);
+    background: -moz-linear-gradient(90deg, #FF512F 10%, #DD2476 90%);
+    background: -ms-linear-gradient(90deg, #FF512F 10%, #DD2476 90%);
+    background: -o-linear-gradient(90deg, #FF512F 10%, #DD2476 90%);
+    background: linear-gradient(90deg, #FF512F 10%, #DD2476 90%);
+    font-family: 'Open Sans', sans-serif!important;
+    width : 20%
+	
+}
